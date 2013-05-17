@@ -1,4 +1,1 @@
-dotfiles
-========
-
-the best .dotfiles!
+.readme
