@@ -1,1 +1,1 @@
-.bash/.bashrc
+./.bash/.bashrc
