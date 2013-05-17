@@ -3,7 +3,7 @@
 	url = git://github.com/thomhastings/bashrc.git
 [submodule ".screen"]
 	path = .screen
-	url = git://github.com/thomhastings/screenrc.git
+	url = https://github.com/thomhastings/screenrc.git
 [submodule ".vim"]
 	path = .vim
 	url = git://github.com/thomhastings/vimrc.git
