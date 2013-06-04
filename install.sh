@@ -1,5 +1,6 @@
 #!/bin/sh
 WORKINGDIR=`pwd`
+git submodule update --init
 cd .zsh
 sudo make install
 cd $WORKINGDIR
