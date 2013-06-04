@@ -1,7 +1,6 @@
 #!/bin/sh
 WORKINGDIR=`pwd`
-cd .zshrc
-./configure
+cd .zsh
 make
 sudo make install
 cd $WORKINGDIR
