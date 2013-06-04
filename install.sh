@@ -1,5 +1,10 @@
-#!/bin/bash
+#!/bin/sh
 WORKINGDIR=`pwd`
+cd .zshrc
+./configure
+make
+sudo make install
+cd $WORKINGDIR
 ln -s $WORKINGDIR/.bash ~/.bash
 ln -s ~/.bash/.bashrc ~/.bashrc
 ln -s $WORKINGDIR/.bin ~/.bin
