@@ -1,7 +1,6 @@
 #!/bin/sh
 WORKINGDIR=`pwd`
 cd .zsh
-make
 sudo make install
 cd $WORKINGDIR
 ln -s $WORKINGDIR/.bash ~/.bash
